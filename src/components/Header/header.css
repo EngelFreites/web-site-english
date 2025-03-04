@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--size-16) var(--size-40);
+}
+
+nav {
+  display: flex;
+  gap: var(--size-16);
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}

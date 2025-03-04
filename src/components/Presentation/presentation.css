@@ -1,0 +1,51 @@
+.presentation {
+  margin-top: var(--size-40);
+  grid-column: 2/7;
+}
+
+/* Efecto resaltador en el título */
+.presentation h1 {
+  font-size: 30px;
+  color: #222;
+  margin-bottom: 15px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+/* Subrayado estilo resaltador */
+.highlight {
+  background: linear-gradient(transparent 50%, #fffd54 50%);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Subtítulo con llamado a la acción */
+.presentation h2 {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.start-button {
+  background: linear-gradient(to bottom, #78aaff, #5c8ed9); /* Azul suave */
+  color: white;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.start-button:hover {
+  background: linear-gradient(
+    to bottom,
+    #5c8ed9,
+    #4a7ebf
+  ); /* Azul tenue en hover */
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
